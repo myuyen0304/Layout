@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout 2</title>
+    <style>
+      * {
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+
+      #container {
+        width: 1000px;
+        height: 300px;
+        border: 1px solid black;
+      }
+      #header {
+        width: 100%;
+        height: 25px;
+        border-bottom: 1px solid black;
+        background-color: #dce9d1;
+        text-align: center;
+      }
+      #nav {
+        width: 25%;
+        height: 250px;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        background-color: #dce9d1;
+        text-align: center;
+        float: left;
+      }
+      #section {
+        width: 50%;
+        height: 250px;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        background-color: #dce9d1;
+        text-align: center;
+        float: left;
+      }
+
+      #aside {
+        width: 100%;
+        height: 250px;
+        border-bottom: 1px solid black;
+        background-color: #dce9d1;
+        text-align: center;
+      }
+      #footer {
+        clear: both;
+        width: 100%;
+        height: 25px;
+        background-color: #dce9d1;
+        text-align: center;
+        border-bottom: 1px solid #413f3f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"><p>header</p></div>
+      <div id="nav"><p>nav</p></div>
+      <div id="section"><p>section</p></div>
+      <div id="aside"><p>aside</p></div>
+      <div id="footer"><p>footer</p></div>
+    </div>
+  </body>
+</html>
